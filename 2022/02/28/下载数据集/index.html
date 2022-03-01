@@ -19,7 +19,7 @@
 <meta property="og:image" content="http://example.com/2022/02/28/%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86/api.png">
 <meta property="og:image" content="http://example.com/2022/02/28/%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86/dataset.png">
 <meta property="article:published_time" content="2022-02-28T15:18:20.000Z">
-<meta property="article:modified_time" content="2022-03-01T02:28:02.157Z">
+<meta property="article:modified_time" content="2022-03-01T03:04:37.915Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="工具">
 <meta name="twitter:card" content="summary">
@@ -177,28 +177,26 @@
     <div class="article-entry" itemprop="articleBody">
       
         <hr>
-<p>Linux下载kaggle数据集</p>
+<p><strong>Linux下载kaggle数据集</strong></p>
 <span id="more"></span>
 
 <p>在电脑上下载数据集，然后再传到服务器实在太慢了，所以想在服务器上直接下载解压。</p>
-<ol>
-<li><p>kaggle登录后生成API token</p>
-<img src="/2022/02/28/%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86/user.png" style="zoom:50%;">
+<p><strong>1. kaggle登录后生成API token</strong></p>
+   <img src="/2022/02/28/%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86/user.png" style="zoom:50%;">
 
-<p>下载kaggle.json文件</p>
-<p><img src="/2022/02/28/%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86/api.png"></p>
-</li>
-<li><p>linux安装kaggle api</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install kaggle</span><br></pre></td></tr></table></figure>
+<p>   下载kaggle.json文件</p>
+<p>   <img src="/2022/02/28/%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86/api.png"></p>
+<p><strong>2. linux安装kaggle api</strong></p>
+   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install kaggle</span><br></pre></td></tr></table></figure>
 
-<p>然后在根目录下创建.kaggle文件夹，并下载的kaggle.json文件放入</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">mkdir .kaggle</span><br><span class="line"><span class="built_in">cd</span> ~/.kaggle/</span><br></pre></td></tr></table></figure></li>
-<li><p>下载相应数据集</p>
-<p>在对应数据集上找到API命令。</p>
-<p><img src="/2022/02/28/%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86/dataset.png"></p>
-<p>如这个数据集的命令为：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kaggle datasets download -d ifigotin/imagenetmini-1000</span><br></pre></td></tr></table></figure></li>
-</ol>
+<p>   然后在根目录下创建.kaggle文件夹，并下载的kaggle.json文件放入</p>
+   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">mkdir .kaggle</span><br><span class="line"><span class="built_in">cd</span> ~/.kaggle/</span><br></pre></td></tr></table></figure>
+
+<p><strong>3. 下载相应数据集</strong></p>
+<p>   在对应数据集上找到API命令。</p>
+<p>   <img src="/2022/02/28/%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86/dataset.png"></p>
+<p>   如这个数据集的命令为：</p>
+   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kaggle datasets download -d ifigotin/imagenetmini-1000</span><br></pre></td></tr></table></figure>
 
       
 
@@ -281,6 +279,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2022/03/01/Linux%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Linux后台运行
+        
+      </div>
+    </a>
   
   
     <a href="/2022/01/10/hexo+github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
