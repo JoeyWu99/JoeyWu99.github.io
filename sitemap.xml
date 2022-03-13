@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2022/03/12/gitkraken/</loc>
+    
+    <lastmod>2022-03-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2022/03/01/Typora-Markdown%E7%BC%96%E8%BE%91%E5%99%A8/</loc>
     
-    <lastmod>2022-03-03</lastmod>
+    <lastmod>2022-03-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +85,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-03-03</lastmod>
+    <lastmod>2022-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,21 +93,28 @@
   
   <url>
     <loc>http://example.com/tags/%E8%AF%BB%E4%B9%A6/</loc>
-    <lastmod>2022-03-03</lastmod>
+    <lastmod>2022-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E5%A8%B1%E4%B9%90/</loc>
-    <lastmod>2022-03-03</lastmod>
+    <lastmod>2022-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2022-03-03</lastmod>
+    <lastmod>2022-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/git-git-E-blog-hexo-source-posts-gitkraken-git-png/</loc>
+    <lastmod>2022-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
